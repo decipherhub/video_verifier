@@ -1,0 +1,33 @@
+extends layout
+
+block content
+	table#videoList
+		tr
+			th time 
+			th hash
+		tr(onclick="clickBtn(0)")
+			td -
+			td -
+		tr(onclick="clickBtn(1)")
+			td -
+			td -
+		tr(onclick="clickBtn(2)")
+			td -
+			td -
+		tr(onclick="clickBtn(3)")
+			td -
+			td -
+		tr(onclick="clickBtn(4)")
+			td -
+			td -
+
+
+	br
+	div(style='text-align:center')
+		button(onclick='playPause()') Play/Pause
+		br
+		br
+		video#video1(width='560')
+			source(src='mov_bbb.mp4', type='video/mp4')
+
+	script(src='javascripts/index.js')
