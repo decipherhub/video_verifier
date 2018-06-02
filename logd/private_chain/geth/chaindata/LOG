@@ -1,0 +1,74 @@
+=============== Jun 2, 2018 (KST) ===============
+11:47:55.094862 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:47:55.095555 db@open opening
+11:47:55.095987 version@stat F·[] S·0B[] Sc·[]
+11:47:55.096286 db@janitor F·2 G·0
+11:47:55.096316 db@open done T·741.75µs
+=============== Jun 2, 2018 (KST) ===============
+11:48:50.547417 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:48:50.547590 version@stat F·[] S·0B[] Sc·[]
+11:48:50.547609 db@open opening
+11:48:50.547661 journal@recovery F·1
+11:48:50.550712 journal@recovery recovering @1
+11:48:50.551424 memdb@flush created L0@2 N·9 S·543B "H^\x1f..א\xe0,v3":"r\x00\x00..א\xe0,v5"
+11:48:50.554523 version@stat F·[1] S·543B[543B] Sc·[0.25]
+11:48:50.555552 db@janitor F·3 G·0
+11:48:50.555582 db@open done T·7.960471ms
+11:50:14.964380 db@close closing
+11:50:14.964741 db@close done T·359.171µs
+=============== Jun 2, 2018 (KST) ===============
+11:50:18.940183 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:50:18.940366 version@stat F·[1] S·543B[543B] Sc·[0.25]
+11:50:18.940387 db@open opening
+11:50:18.940440 journal@recovery F·1
+11:50:18.943456 journal@recovery recovering @3
+11:50:18.950205 memdb@flush created L0@5 N·357 S·15KiB "Blo..ion,v12":"\xef4@..:6\x19,v367"
+11:50:18.955469 version@stat F·[2] S·16KiB[16KiB] Sc·[0.50]
+11:50:18.956800 db@janitor F·4 G·0
+11:50:18.956843 db@open done T·16.442311ms
+12:32:56.875806 db@close closing
+12:32:56.876255 db@close done T·447.173µs
+=============== Jun 2, 2018 (KST) ===============
+12:32:57.700639 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:32:57.700854 version@stat F·[2] S·16KiB[16KiB] Sc·[0.50]
+12:32:57.700876 db@open opening
+12:32:57.700934 journal@recovery F·1
+12:32:57.703937 journal@recovery recovering @6
+12:32:57.710388 memdb@flush created L0@8 N·266 S·11KiB "Blo..ion,v369":"\xba\xecY..\x94\"Y,v633"
+12:32:57.713875 version@stat F·[3] S·27KiB[27KiB] Sc·[0.75]
+12:32:57.715025 db@janitor F·5 G·0
+12:32:57.715057 db@open done T·14.16858ms
+12:34:50.438100 db@close closing
+12:34:50.438452 db@close done T·349.219µs
+=============== Jun 2, 2018 (KST) ===============
+12:34:51.281797 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:34:51.281985 version@stat F·[3] S·27KiB[27KiB] Sc·[0.75]
+12:34:51.282006 db@open opening
+12:34:51.282069 journal@recovery F·1
+12:34:51.285161 journal@recovery recovering @9
+12:34:51.291231 memdb@flush created L0@11 N·2 S·243B "Blo..ion,v636":"Las..der,v637"
+12:34:51.296334 version@stat F·[4] S·27KiB[27KiB] Sc·[1.00]
+12:34:51.297676 db@janitor F·6 G·0
+12:34:51.297729 db@open done T·15.698219ms
+12:34:51.297791 table@compaction L0·4 -> L1·0 S·27KiB Q·638
+12:34:51.299554 table@build created L1@14 N·425 S·23KiB "Blo..ion,v636":"\xef4@..:6\x19,v367"
+12:34:51.299601 version@stat F·[0 1] S·23KiB[0B 23KiB] Sc·[0.00 0.00]
+12:34:51.299856 table@compaction committed F-3 S-3KiB Ke·0 D·209 T·1.963222ms
+12:34:51.300063 table@remove removed @11
+12:34:51.300233 table@remove removed @8
+12:34:51.300376 table@remove removed @5
+12:34:51.300507 table@remove removed @2
+13:02:45.724976 db@close closing
+13:02:45.725148 db@close done T·170.393µs
+=============== Jun 2, 2018 (KST) ===============
+13:08:47.166018 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:08:47.166204 version@stat F·[0 1] S·23KiB[0B 23KiB] Sc·[0.00 0.00]
+13:08:47.166226 db@open opening
+13:08:47.166280 journal@recovery F·1
+13:08:47.169403 journal@recovery recovering @12
+13:08:47.175345 memdb@flush created L0@15 N·2 S·243B "Blo..ion,v639":"Las..der,v640"
+13:08:47.178605 version@stat F·[1 1] S·24KiB[243B 23KiB] Sc·[0.25 0.00]
+13:08:47.179711 db@janitor F·4 G·0
+13:08:47.179737 db@open done T·13.499315ms
+13:11:15.237622 db@close closing
+13:11:15.237765 db@close done T·142.437µs
