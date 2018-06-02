@@ -1,24 +1,15 @@
-var myVideo = document.getElementById("video1"); 
+var hashedVideo = document.getElementById("hashedVideo"); 
+var uploadedVideo = document.getElementById("uploadedVideo"); 
 
 function playPause() { 
-	if (myVideo.paused) 
-		myVideo.play(); 
-	else 
-		myVideo.pause(); 
+	if (hashedVideo.paused) {
+		hashedVideo.play(); 
+		uploadedVideo.play(); 
+	} else {
+		hashedVideo.pause(); 
+		uploadedVideo.pause(); 
+	}
 } 
-
-function makeBig() { 
-	myVideo.width = 560; 
-} 
-
-function makeSmall() { 
-	myVideo.width = 320; 
-} 
-
-function makeNormal() { 
-	myVideo.width = 420; 
-} 
-
 
 
 setInterval(function() {
@@ -37,3 +28,15 @@ setInterval(function() {
 function clickBtn(i) {
 	console.log(i);
 }
+
+function fileUpload(e) {
+	var selectedFile = e.target.files[0];
+	var reader = new FileReader();
+
+	reader.onload = function(e) {
+		document.getElementById("uploadedVideo").src = e.target.result;
+	};
+
+	reader.readAsDataURL(selectedFile);
+}
+

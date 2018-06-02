@@ -24,10 +24,21 @@ block content
 
 	br
 	div(style='text-align:center')
+		div(style='float: left')
+			small timestamp: 
+				input(type='text', name='timestamp', value='2018-06-02 17:48:49')
+				button(onclick='getVideo()')  가져오기
+		p
+		input#uploadFile(type="file", onchange="fileUpload(event)")
 		button(onclick='playPause()') Play/Pause
 		br
 		br
-		video#video1(width='560')
+		p 기록된 비디오 ↓
+		video#hashedVideo(width='560')
 			source(src='mov_bbb.mp4', type='video/mp4')
+		p 확인할 비디오 ↓
+		video#uploadedVideo(width='560')
+			source(src='mov_bbb.mp4', type='video/mp4')
+	
 
 	script(src='javascripts/index.js')
